@@ -19,7 +19,7 @@ const YearFilter = () => {
       className="flex justify-center bg-gray-700 rounded-[4px] items-center"
     >
       <label htmlFor="year" className="mx-2">
-        Year:
+        Yıl:
       </label>
 
       <input
