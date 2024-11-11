@@ -18,7 +18,7 @@ const SelectFilter = () => {
       </label>
 
       <ReactSelect
-        id="fuel"
+        inputId="fuel"
         options={fuels}
         className="text-black min-w-[130px]"
         defaultValue={selected}

@@ -34,7 +34,7 @@ const SearchBar = () => {
         <div className="w-full flex flex-col">
           <label htmlFor="make">Marka</label>
           <ReactSelect
-            id="make"
+            inputId="make"
             onChange={(e) => setMake(e!.value)}
             options={options}
             defaultValue={selected}
